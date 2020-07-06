@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1
+{
+    font-size: 4.236em;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+}
+.svgLogo svg
+{
+    height: 100px;
+}
+.widthPage
+{
+    width: 930px;
+}
+.section1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 248px;
+}
+.section2
+{
+    margin-top: 100px;
+}
+.titre1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+.titre1 img 
+{
+    height: 606px;
+}
+.titre1 h1, .titre2 h1, .titre3 h1
+{
+    color: #FFD700;
+    line-height: 46px;
+}
+.text1
+{
+    margin-top: 40px;
+    font-size: 1.618em;
+    text-align: justify;
+}
+.boldText
+{
+    font-weight: 900;
+}
+.section3, .section4
+{
+    margin-top: 80px;
+}
+.client
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+@media (max-width: 900px)
+{
+    .widthPage
+    {
+        width: 80%;
+    }
+    h1
+    {
+        font-size: 2.618em;
+    }
+    svg
+    {
+        height: 33px;
+        width: 110.78px;
+    }
+    .section1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .titre1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .titre1 img
+    {
+        width: 100%;
+        height: auto;
+    }
+    .text1
+    {
+        margin-top: 40px;
+        font-size: 1em;
+        text-align: justify;
+    }
+    .client
+    {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .client img 
+    {
+    
+        height: auto;
+    }
+
+}
