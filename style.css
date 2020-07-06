@@ -126,8 +126,11 @@ a
     }
     .client img 
     {
-    
+        width: 35%;
         height: auto;
     }
-
+    .client .imgA
+    {
+        width: 80%;
+    }
 }
