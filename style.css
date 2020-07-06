@@ -71,6 +71,11 @@ body
     align-items: center;
     height: 400px;
 }
+a
+{
+    color: blue;
+    text-decoration: underline;
+}
 
 @media (max-width: 900px)
 {
